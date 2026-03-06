@@ -1,4 +1,4 @@
-# YouTube Clone — Built with React
+# YouTube Clone - Built with React
 
 This project is a **YouTube-inspired web application built with React.js and the YouTube Data API**.
 
