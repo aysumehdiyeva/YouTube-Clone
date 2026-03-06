@@ -1,16 +1,83 @@
-# React + Vite
+# YouTube Clone — Built with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **YouTube-inspired web application built with React.js and the YouTube Data API**.
 
-Currently, two official plugins are available:
+I created this project to explore how modern web applications interact with external APIs and to better understand how large platforms like YouTube organize and display massive amounts of content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal was not just to recreate a familiar interface, but to **learn how to build a dynamic, data-driven application from scratch using modern frontend technologies**.
 
-## React Compiler
+Through this project, I practiced building **reusable components, managing API data, and structuring a scalable React application**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## What This Project Does
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application connects to the **YouTube Data API v3** to fetch real-time video information and display it in an interactive interface similar to YouTube.
+
+Users can:
+
+- Browse popular videos
+- View video thumbnails and titles
+- See real-time statistics from the YouTube API
+- Watch videos directly within the application
+
+The project focuses on creating a **smooth user experience while working with real-world API data**.
+
+---
+
+## Why I Built This Project
+
+As someone learning modern web development, I wanted to challenge myself to build something that reflects how real platforms work.
+
+This project helped me understand:
+
+- How to integrate external APIs into a React application
+- How to structure a project using reusable components
+- How dynamic data is fetched, processed, and displayed
+- How modern tools like **Vite** improve development speed
+
+It was an exciting step in my journey of learning **frontend engineering and building real applications**.
+
+---
+
+## Technologies Used
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- CSS
+
+### Development Tools
+- Vite
+- ESLint
+
+### API
+- YouTube Data API v3
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aysumehdiyeva/YouTube-Clone.git
+```
+
+Go to the project folder:
+
+```bash
+cd YouTube-Clone
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
